@@ -1,6 +1,6 @@
 // bubbleSort.ts
 
-export function bubbleSort(arr: number[]): number[] {
+export function bubbleSort(arr: number[]): void {
 
-    return []
+
 }

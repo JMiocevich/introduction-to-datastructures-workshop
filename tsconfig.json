@@ -8,6 +8,7 @@
         "sourceMap": true,
         "verbatimModuleSyntax": true,
         "moduleResolution": "node",
+        "noImplicitAny": true
     },
     "include": [
         "src/**/*.ts",
