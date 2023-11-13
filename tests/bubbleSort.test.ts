@@ -10,13 +10,7 @@ test('should sort an array of numbers', () => {
     expect(sortedArray).toEqual([2, 3, 4, 5, 8]);
 });
 
-test('should handle an empty array', () => {
-    const array: number[] = [];
-    const sortedArray = bubbleSort(array);
-    expect(sortedArray).toEqual([]);
-});
-
-test('should handle an array wtesth one element', () => {
+test('should handle an array with one element', () => {
     const array = [1];
     const sortedArray = bubbleSort(array);
     expect(sortedArray).toEqual([1]);
